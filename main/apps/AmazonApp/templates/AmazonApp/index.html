@@ -39,10 +39,26 @@
 
                         <td id="links"> <!-- actions -->
 
-                            <!-- TODO: Add drop down for Quantity  -->
+                            <div id="actions">
 
-                            <!-- TODO: Add button for Buy -->
+                                <!-- TODO: Add drop down for Quantity  -->
+                                <form action='/authors/assign_book/{{author.id}}' method='post'>
+                                {% csrf_token %}
+                                    <!-- Drop-down menu -->
+                                    <div class="form-group">
+                                        <label for="book">Quantity</label>
+                                        <select name="book" id="book" class="form-control">
+                                            <option value=1>1</option>
+                                            <option value=2>2</option>
+                                            <option value=3>3</option>
+                                        </select>
+                                    </div> <!-- form-group-->
 
+                                    <!-- submit-button -->
+                                    <input type='submit' id="submit-button" value='Buy!' class="form-control"
+                                           class="shadow-lg p-3 mb-5 bg-white rounded">
+                                </form>
+                            </div> <!-- actions-->
                         </td>
                     </tr>
                     {% endfor %}
