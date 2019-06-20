@@ -15,7 +15,42 @@
     </style>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   </head>
+  <!-- ======================================================================-->
   <body>
     <h1>Hello from HTML</h1>
+    <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>id</th>
+                        <th>Item</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for product in products %}
+                    <tr>
+                        <td>{{product.id}}</td>
+                        <td>{{product.item}}</td>
+                        <td>{{product.price}}</td>
+
+                        <td id="links"> <!-- actions -->
+
+                            <!-- TODO: Add drop down for Quantity  -->
+
+                            <!-- TODO: Add button for Buy -->
+
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+   <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
   </body>
 </html>
