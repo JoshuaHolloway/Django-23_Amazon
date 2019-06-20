@@ -17,7 +17,6 @@
   </head>
   <!-- ======================================================================-->
   <body>
-    <h1>Hello from HTML</h1>
     <!-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -->
     <div class="album py-5 bg-light">
         <div class="container">
@@ -42,7 +41,7 @@
                             <div id="actions">
 
                                 <!-- TODO: Add drop down for Quantity  -->
-                                <form action='/authors/assign_book/{{author.id}}' method='post'>
+                                <form action='/amazon/checkout' method='post'>
                                 {% csrf_token %}
                                     <!-- Drop-down menu -->
                                     <div class="form-group">
