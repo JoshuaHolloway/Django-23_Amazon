@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 
 from django.shortcuts import render, HttpResponse
 def index(request):
-    return HttpResponse("hello")
+    return render(request, "AmazonApp/index.html")
+    # return HttpResponse("hello")
