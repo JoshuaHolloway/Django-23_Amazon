@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f4eda35-9d34-4d40-a393-b8425c372ab0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps/AmazonApp/templates/AmazonApp/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps/AmazonApp/templates/AmazonApp/checkout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps/AmazonApp/templates/AmazonApp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps/AmazonApp/templates/AmazonApp/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps/AmazonApp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps/AmazonApp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/apps/AmazonApp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/apps/AmazonApp/views.py" afterDir="false" />
-    </list>
+    <list default="true" id="6f4eda35-9d34-4d40-a393-b8425c372ab0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +29,8 @@
               <file pinned="false" current-in-tab="true">
                 <entry file="file://$PROJECT_DIR$/main/apps/AmazonApp/views.py">
                   <provider selected="true" editor-type-id="text-editor">
-                    <state relative-caret-position="96">
-                      <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+                    <state relative-caret-position="143">
+                      <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
                       <folding>
                         <element signature="e#0#49#0" expanded="true" />
                       </folding>
@@ -135,10 +129,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="2259" />
-    <option name="y" value="-27" />
-    <option name="width" value="1204" />
-    <option name="height" value="1012" />
+    <option name="x" value="2258" />
+    <option name="y" value="-28" />
+    <option name="width" value="1205" />
+    <option name="height" value="1013" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -274,14 +268,14 @@
       <window_info id="Favorites" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49778023" weight="0.32988507" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.73418427" visible="true" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4972253" weight="0.32988507" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.73418427" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49889013" weight="0.32988507" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4972253" weight="0.32988507" />
-      <window_info anchor="bottom" content_ui="combo" id="Project" order="9" sideWeight="0.26581576" side_tool="true" visible="true" weight="0.4" />
+      <window_info anchor="bottom" content_ui="combo" id="Project" order="9" sideWeight="0.5027747" side_tool="true" visible="true" weight="0.4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -375,8 +369,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main/apps/AmazonApp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="19" column="53" selection-start-line="19" selection-start-column="53" selection-end-line="19" selection-end-column="53" />
+        <state relative-caret-position="143">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
